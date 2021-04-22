@@ -27,7 +27,7 @@ public class SignUpPage {
     public static WebElement warningMessage;
 
     public SignUpPage() {
-        PageFactory.initElements(driver, this);
+        PageFactory.initElements(driver, this);//this=SignUpPage.class
     }
 
     public static void goSignupPage() {
